@@ -1,0 +1,33 @@
+# Render Deployment Configuration
+# This file configures the deployment of the Realtime Whiteboard application on Render
+
+services:
+  # Web service definition
+  - type: web
+    # Service name (appears in Render dashboard)
+    name: realtime-whiteboard
+    
+    # Runtime environment
+    runtime: node
+    
+    # Node.js version (optional - uses default if not specified)
+    # runtimeVersion: 18
+    
+    # Build configuration
+    buildCommand: npm install
+    
+    # Start command to run the application
+    startCommand: node express.js
+    
+    # Port configuration (Express app should listen on this port)
+    # Render automatically sets PORT environment variable
+    plan: free  # Options: free, standard, pro
+    
+    # Environment variables (optional)
+    # env:
+    #   - key: NODE_ENV
+    #     value: production
+    
+    # Auto-deploy on push to main branch
+    # This happens automatically if connected via GitHub
+    autoDeploy: true
