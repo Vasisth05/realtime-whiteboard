@@ -68,12 +68,24 @@ This project is configured for deployment on **Render.com**.
 5. Render will automatically use the `render.yaml` configuration
 6. Click **Create Web Service** and wait for deployment
 
-The app will be live at: `https://realtime-whiteboard.onrender.com`
+The app can now be deployed on Railway, which is working for this project. Use the instructions below and set the service start command to `node express.js`.
 
 ---
+
+## 🚆 Railway Deployment (Recommended)
+
+1. Go to https://railway.app and log in with GitHub.
+2. Click **New Project**.
+3. Select **Deploy from GitHub repo**.
+4. Choose `Vasisth05/realtime-whiteboard`.
+5. In service settings, set:
+   - Build command: `npm install`
+   - Start command: `node express.js`
+6. Add environment variable if needed: `PORT` is set automatically by Railway.
+7. Deploy and wait.
+8. The live URL should be shown on your Railway project page (e.g. `https://your-app.up.railway.app`).
 
 ## 🔗 Links
 
 - **GitHub Repo:** https://github.com/Vasisth05/realtime-whiteboard
-- **Live Demo:** https://realtime-whiteboard.onrender.com (Deploy on Render to activate)
 - **Developer:** https://github.com/Vasisth05
