@@ -60,4 +60,4 @@ http://localhost:3000
 
 GitHub Repo: https://github.com/jayants/realtime-whiteboard
 
-Demo: https://jayants.github.io/realtime-whiteboard
+Demo: https://github.com/jayants/realtime-whiteboard
