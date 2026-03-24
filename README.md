@@ -56,23 +56,28 @@ node express.js
 Open browser and visit
 http://localhost:3000
 
-## 🚀 Deployment
+## � Railway Deployment (Recommended)
 
-This project is configured for deployment on **Render.com**.
+This project is deployed on Railway and working now at:
 
-**To Deploy:**
-1. Visit [Render.com](https://render.com)
-2. Sign in with GitHub
-3. Create a new **Web Service**
-4. Select this repository (`realtime-whiteboard`)
-5. Render will automatically use the `render.yaml` configuration
-6. Click **Create Web Service** and wait for deployment
+- **Live Demo:** https://web-production-3731f.up.railway.app/
 
-The app can now be deployed on Railway, which is working for this project. Use the instructions below and set the service start command to `node express.js`.
+**Deploy yourself:**
+
+1. Go to https://railway.app and log in with GitHub.
+2. Click **New Project**.
+3. Select **Deploy from GitHub repo**.
+4. Choose `Vasisth05/realtime-whiteboard`.
+5. In service settings, set:
+   - Build command: `npm install`
+   - Start command: `node express.js`
+6. Add environment variable if needed: `PORT` is set automatically by Railway.
+7. Deploy and wait.
+8. The live URL should be shown on your Railway project page (e.g. `https://your-app.up.railway.app`).
 
 ---
 
-## 🚆 Railway Deployment (Recommended)
+## 🔗 Links
 
 1. Go to https://railway.app and log in with GitHub.
 2. Click **New Project**.
