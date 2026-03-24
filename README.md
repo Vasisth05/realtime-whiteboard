@@ -48,7 +48,7 @@ Multiple users can draw, erase, add sticky notes, upload images, and collaborate
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/jayants/realtime-whiteboard.git
+git clone https://github.com/Vasisth05/realtime-whiteboard.git
 cd realtime-whiteboard
 npm install
 node express.js
@@ -58,6 +58,6 @@ http://localhost:3000
 
 🔗 Links
 
-GitHub Repo: https://github.com/jayants/realtime-whiteboard
+GitHub Repo: https://github.com/Vasisth05/realtime-whiteboard
 
-Demo: https://github.com/jayants/realtime-whiteboard
+Demo: https://github.com/Vasisth05
