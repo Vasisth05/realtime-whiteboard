@@ -77,20 +77,3 @@ This project is deployed on Railway and working now at:
 
 ---
 
-## 🔗 Links
-
-1. Go to https://railway.app and log in with GitHub.
-2. Click **New Project**.
-3. Select **Deploy from GitHub repo**.
-4. Choose `Vasisth05/realtime-whiteboard`.
-5. In service settings, set:
-   - Build command: `npm install`
-   - Start command: `node express.js`
-6. Add environment variable if needed: `PORT` is set automatically by Railway.
-7. Deploy and wait.
-8. The live URL should be shown on your Railway project page (e.g. `https://your-app.up.railway.app`).
-
-## 🔗 Links
-
-- **GitHub Repo:** https://github.com/Vasisth05/realtime-whiteboard
-- **Developer:** https://github.com/Vasisth05
