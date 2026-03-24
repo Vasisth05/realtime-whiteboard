@@ -56,8 +56,24 @@ node express.js
 Open browser and visit
 http://localhost:3000
 
-🔗 Links
+## 🚀 Deployment
 
-GitHub Repo: https://github.com/Vasisth05/realtime-whiteboard
+This project is configured for deployment on **Render.com**.
 
-Demo: https://github.com/Vasisth05
+**To Deploy:**
+1. Visit [Render.com](https://render.com)
+2. Sign in with GitHub
+3. Create a new **Web Service**
+4. Select this repository (`realtime-whiteboard`)
+5. Render will automatically use the `render.yaml` configuration
+6. Click **Create Web Service** and wait for deployment
+
+The app will be live at: `https://realtime-whiteboard.onrender.com`
+
+---
+
+## 🔗 Links
+
+- **GitHub Repo:** https://github.com/Vasisth05/realtime-whiteboard
+- **Live Demo:** https://realtime-whiteboard.onrender.com (Deploy on Render to activate)
+- **Developer:** https://github.com/Vasisth05
