@@ -64,7 +64,7 @@ This project is deployed on Railway and working now at:
 
 **Deploy yourself:**
 
-1. Go to https://railway.app and log in with GitHub.
+1. Go to (https://lnkd.in/gUBnYAT8)
 2. Click **New Project**.
 3. Select **Deploy from GitHub repo**.
 4. Choose `Vasisth05/realtime-whiteboard`.
